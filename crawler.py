@@ -13,7 +13,10 @@ class Crawler:
 
     The Crawler function depends on the implementation of an API class, which is a subclass of the CrawlerAbstractAPI
     class. This must implemented fresh for every new API to be crawled. You should not need to edit this code at all.
-
+    
+    "Crawler.py" by Robin Burke 
+    is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+    
     Variables:
     _state -- A CrawlerState object encapsulating the current state of the crawl
     _net -- A NetworkX Graph object containing the network gather so far
