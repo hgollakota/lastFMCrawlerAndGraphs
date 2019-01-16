@@ -1,8 +1,16 @@
 # lastFMCrawlerAndGraphs
 A crawler that gathers artists and tags from lastFM using Pylast, then creates a bipartite graph from the results using NetworkX
 
+To Use: 
+1. Edit the API login information in Crawler_my_api.py
+2. Edit the initial tag in Crawler_my_api.py
+3. Run 60sCrawlerAndNetworkGenerator.ipynb or 70sCrawlerAndNetworkGenerator.ipynb depending on which tag you use
+
+
 "Crawler.py" by Robin Burke is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
 "Crawler_abst_api.py" by Robin Burke is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
 "Crawler_state.py" by Robin Burke is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
 
