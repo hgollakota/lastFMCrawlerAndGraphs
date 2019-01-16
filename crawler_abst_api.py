@@ -8,6 +8,10 @@ class CrawlerAbstractAPI(ABC):
     Note that the CrawlerAPI does not hold any state, so it does not need to be saved when the state is saved.
     This class assumes that you are crawling a bipartite network with nodes of type 0 and 1.
 
+    "Crawler_abst_api.py" by Robin Burke 
+    is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+
+    
     Variables
     _delay: Wait (seconds) in betweem API calls
     _ERROR_RESULT: What the API returns in case of error
