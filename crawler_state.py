@@ -5,6 +5,9 @@ from collections import deque
 class CrawlerState:
     """
     Encapsulates the crawler state information, managing the open queue and the visited list.
+    
+    "Crawler_state.py" by Robin Burke 
+    is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
     Variables
     _depth_limit -- The maximum depth of nodes from the start
